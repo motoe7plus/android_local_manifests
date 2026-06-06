@@ -3,7 +3,7 @@
   <!-- remote -->
   <remote name="guam" fetch="https://github.com/motoe7plus" revision="16.2" />
   <!-- remote2 -->
-  <remote name="camera" fetch="https://gitlab.com/Deivid21" revision="android-15" />
+  <remote name="moto-camera" fetch="https://gitlab.com/Deivid21" revision="android-15" />
 
   <!-- device -->
   <project path="device/motorola/guam" name="device_motorola_guam" remote="guam" />
@@ -23,20 +23,20 @@
   <!-- kernel -->
   <project path="kernel/motorola/sm6225" name="kernel_motorola_sm6225" remote="guam" />
   
-  <!-- moto-camera -->
-  <project path="" name="" remote="camera" />
-  <!-- moto-camera2 -->
-  <project path="" name="" remote="camera" />
-  <!-- moto-camera3 -->
-  <project path="" name="" remote="camera" />
-  <!-- moto-camera4 -->
-  <project path="" name="" remote="camera" />
-  <!-- moto-camera5 -->
-  <project path="" name="" remote="camera" />
-  <!-- moto-camera6 -->
-  <project path="" name="" remote="camera" />
-  <!-- moto-camera7 -->
-  <project path="" name="" remote="camera" />
-  <!-- moto-camera8 -->
-  <project path="" name="" remote="camera" />
+  <!-- motcamera2 -->
+  <project path="" name="proprietary_vendor_motorola_MotCamera2" remote="moto-camera" />
+  <!-- motcamera-common -->
+  <project path="" name="proprietary_vendor_motorola_MotCamera-common" remote="moto-camera" />
+  <!-- ar-selfie -->
+  <project path="" name="proprietary_vendor_motorola_ARselfie" remote="moto-camera" />
+  <!-- moto-photo-editor -->
+  <project path="" name="proprietary_vendor_motorola_MotoPhotoEditor" remote="moto-camera" />
+  <!-- motcamera2-ai -->
+  <project path="" name="proprietary_vendor_motorola_MotCamera2AI" remote="moto-camera" />
+  <!-- motcamera-ai-common -->
+  <project path="" name="proprietary_vendor_motorola_MotCameraAI-common" remote="moto-camera" />
+  <!-- moto-signature-app -->
+  <project path="" name="proprietary_vendor_motorola_MotoSignatureApp" remote="moto-camera" />
+  <!-- motorola-settings-provider -->
+  <project path="" name="proprietary_vendor_motorola_MotorolaSettingsProvider" remote="moto-camera" />
 </manifest>
