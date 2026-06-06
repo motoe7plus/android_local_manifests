@@ -16,9 +16,9 @@
   <project path="hardware/dolby" name="hardware_dolby" remote="guam" />
 
   <!-- vendor -->
-  <project path="vendor/motorola/bangkk" name="vendor_motorola_bangkk" remote="vendor" />
+  <project path="vendor/motorola/guam" name="vendor_motorola_guam" remote="guam" />
   <!-- vendor common -->
-  <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="lineage" />
+  <project path="vendor/motorola/sm6225-common" name="vendor_motorola_sm6225-common" remote="guam" />
 
   <!-- kernel -->
   <project path="kernel/motorola/sm6225" name="kernel_motorola_sm6225" remote="guam" />
