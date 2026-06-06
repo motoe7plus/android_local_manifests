@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote -->
+  <remote name="lineage" fetch="https://github.com/zedisspp" revision="16.2" />
+  <!-- remote2 -->
+  <remote name="vendor" fetch="https://gitlab.com/ZedissPp" revision="16.0" />
+  <!-- remote3 -->
+  <remote name="hardware" fetch="https://github.com/LineageOS" revision="lineage-23.2" />
+
+
+  <!-- device -->
+  <project path="device/motorola/bangkk" name="android_device_motorola_bangkk" remote="lineage" />
+  <!-- device common -->
+  <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="lineage" />
+
+  <!-- hardware motorola -->
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="hardware" />
+  <!-- hardware dolby -->
+  <project path="hardware/dolby" name="hardware_dolby" remote="lineage" />
+  <!-- hardware nfc -->
+  <project path="hardware/samsung/slsi/nfc" name="android_hardware_samsung_slsi_nfc" remote="lineage" />
+
+  <!-- vendor -->
+  <project path="vendor/motorola/bangkk" name="vendor_motorola_bangkk" remote="vendor" />
+  <!-- vendor common -->
+  <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="lineage" />
+
+  <!-- kernel -->
+  <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="lineage" />
+</manifest>
