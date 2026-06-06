@@ -3,7 +3,7 @@
   <!-- remote -->
   <remote name="guam" fetch="https://github.com/motoe7plus" revision="16.2" />
   <!-- remote2 -->
-  <remote name="moto-camera" fetch="https://gitlab.com/ZedissPp" revision="16.0" />
+  <remote name="camera" fetch="https://gitlab.com/Deivid21" revision="android-15" />
 
   <!-- device -->
   <project path="device/motorola/guam" name="device_motorola_guam" remote="guam" />
@@ -22,4 +22,7 @@
 
   <!-- kernel -->
   <project path="kernel/motorola/sm6225" name="kernel_motorola_sm6225" remote="guam" />
+  
+  <!-- moto-camera -->
+  <project path="" name="" remote="camera" />
 </manifest>
