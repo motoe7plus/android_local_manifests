@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- remote -->
-  <remote name="lineage" fetch="https://github.com/zedisspp" revision="16.2" />
+  <remote name="guam" fetch="https://github.com/motoe7plus" revision="16.2" />
   <!-- remote2 -->
-  <remote name="vendor" fetch="https://gitlab.com/ZedissPp" revision="16.0" />
-  <!-- remote3 -->
-  <remote name="hardware" fetch="https://github.com/LineageOS" revision="lineage-23.2" />
-
+  <remote name="moto-camera" fetch="https://gitlab.com/ZedissPp" revision="16.0" />
 
   <!-- device -->
-  <project path="device/motorola/bangkk" name="android_device_motorola_bangkk" remote="lineage" />
+  <project path="device/motorola/guam" name="device_motorola_guam" remote="guam" />
   <!-- device common -->
-  <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="lineage" />
+  <project path="device/motorola/sm6225-common" name="device_motorola_sm6225-common" remote="guam" />
 
   <!-- hardware motorola -->
-  <project path="hardware/motorola" name="android_hardware_motorola" remote="hardware" />
+  <project path="hardware/motorola" name="hardware_motorola" remote="guam" />
   <!-- hardware dolby -->
-  <project path="hardware/dolby" name="hardware_dolby" remote="lineage" />
-  <!-- hardware nfc -->
-  <project path="hardware/samsung/slsi/nfc" name="android_hardware_samsung_slsi_nfc" remote="lineage" />
+  <project path="hardware/dolby" name="hardware_dolby" remote="guam" />
 
   <!-- vendor -->
   <project path="vendor/motorola/bangkk" name="vendor_motorola_bangkk" remote="vendor" />
@@ -26,5 +21,5 @@
   <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="lineage" />
 
   <!-- kernel -->
-  <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="lineage" />
+  <project path="kernel/motorola/sm6225" name="kernel_motorola_sm6225" remote="guam" />
 </manifest>
